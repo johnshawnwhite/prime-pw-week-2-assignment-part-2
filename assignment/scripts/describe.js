@@ -140,7 +140,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-// FIX - number two value was not reassigned purple
+// FIX - colrTwo value was not reassigned purple
   colorTwo = 'purple';
 }
 */
@@ -172,5 +172,7 @@ if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+  // FIX the code lines for entry and no entry should be in opposite positions
+  // the script is looking for >= and  to verify console.log with 'enter'
 }
 */

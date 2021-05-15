@@ -1,6 +1,6 @@
 // WHAT IS THIS EVEN DOING?
 
-// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
+// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening.
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We establish a variable and gave  it a constant value of 'Dane'.
+// We create a conditional, and type if name is Mary, console will log 'Hi Mary'.
+// If the name is not mary, console will log 'How do you do?'.
+// This should console log ouput, 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created a variable named code, and gave it the value of 123
+// Created a variable named secret.
+// Created a conditional that says if code is in exact match to 123, then secret equals super,
+// and code equals code *2
+// Created a second conditional that if code is greater than 250, then secret will equal 'Duper'
+// If these are true cosole will log (secret)
 
 //CODE
 /*
@@ -70,10 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 1 isstudent variable is true, age variable is 34, and zip varialbe is 55407.
+// Conditional states if isStudent is and exact match to true and variable zip is greater than 80000,
+// console will log 'You are a student of the West Coast!'
+// If conditional is false or the age variable is less than 30, cosole will log 'What are your hobbies'
+// If isstudent boolene is true alone, console will log 'Welcome to Prime!'
+// If Conditional is not met, console will log 'How about the weather'
 
 //CODE
 /*
@@ -97,7 +101,7 @@ if (isStudent === true && zip > 80000 ) {
 
 
 // REVERSE
-// Now, for questions 4-6, we'll give you a description and some code. 
+// Now, for questions 4-6, we'll give you a description and some code.
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
 // Look closely -- things are logically incorrect or missing and wrong in the code!
@@ -106,16 +110,16 @@ if (isStudent === true && zip > 80000 ) {
 // 0. (DESCRIPTION OF CORRECT BEHAVIOR)
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 
+// We check if number is greater than or equal to 2.
 // -- it is, so we console.log 'yes'
 
 //CODE
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -125,8 +129,8 @@ if (number >= 2) {
 
 
 
-//4. We start with three variables -- colorOne is set to 'blue' and 
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+//4. We start with three variables -- colorOne is set to 'blue' and
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
@@ -136,11 +140,13 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - number two value was not reassigned purple
+  colorTwo = 'purple';
 }
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
 /*
@@ -148,12 +154,13 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+//  FIX Compund conditoinal sign  ||  should be  &&
   console.log('throw away the food!');
 }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than or equal to minAge 
+// We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
 /*
@@ -161,9 +168,9 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// FIX sign provided was less than or equal to, when it should be >=
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
